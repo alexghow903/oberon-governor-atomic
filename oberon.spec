@@ -1,6 +1,6 @@
 Name:           oberon-governor
-Version:        0.0.0
-Release:        0%\{?dist}
+Version:        1.0.0
+Release:        1
 Summary:        A GPU governor for the cyan-skillfish gpu in the bc-250
 Source0: https://github.com/alexghow903/oberon-governor/archive/refs/heads/main.zip
 URL: https://gitlab.com/mothenjoyer69/oberon-governor
