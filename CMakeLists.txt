@@ -20,7 +20,7 @@ target_include_directories(oberon-governor PUBLIC ${LIBDRM_INCLUDE_DIRS} ${LIBDR
 target_link_libraries(oberon-governor ${LIBDRM_LIBRARIES} ${LIBDRM_AMDGPU_LIBRARIES} yaml-cpp::yaml-cpp)
 install(
 	TARGETS oberon-governor
-	DESTINATION "/var/usrlocal/"
+	DESTINATION "/var/usrlocal/bin/"
 )
 
 # Service
