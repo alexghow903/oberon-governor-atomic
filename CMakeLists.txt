@@ -20,14 +20,14 @@ target_include_directories(oberon-governor PUBLIC ${LIBDRM_INCLUDE_DIRS} ${LIBDR
 target_link_libraries(oberon-governor ${LIBDRM_LIBRARIES} ${LIBDRM_AMDGPU_LIBRARIES} yaml-cpp::yaml-cpp)
 install(
 	TARGETS oberon-governor
-	DESTINATION "bin"
+	DESTINATION "/var/usrlocal/"
 )
 
 # Service
 configure_file(init/oberon-governor.service.in oberon-governor.service)
 install(
 	FILES "${CMAKE_CURRENT_BINARY_DIR}/oberon-governor.service"
-	DESTINATION "/usr/lib/systemd/system"
+	DESTINATION "/etc/systemd/system/"
 	PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ
 )
 
