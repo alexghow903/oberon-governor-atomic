@@ -9,7 +9,6 @@ BuildRequires:  g++
 BuildRequires:  libdrm-devel
 BuildRequires:  cmake
 BuildRequires:  make
-BuildRequires:  mock
 %description
 A GPU governor for the cyan-skillfish gpu in the bc-250\
 %prep
