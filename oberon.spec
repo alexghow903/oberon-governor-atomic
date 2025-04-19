@@ -12,7 +12,7 @@ BuildRequires:  make
 %description
 A GPU governor for the cyan-skillfish gpu in the bc-250\
 %prep
-%setup -n oberon-governor-main
+%setup -n oberon-governor-atomic-main
 %build
 cmake .
 %{make_build}
