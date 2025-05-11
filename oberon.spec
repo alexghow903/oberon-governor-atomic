@@ -22,4 +22,4 @@ cmake .
 %files
 /etc/oberon-config.yaml
 /etc/systemd/system/oberon-governor.service
-/var/usrlocal/bin/oberon-governor
+/usr/local/bin/oberon-governor
